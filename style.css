@@ -1,0 +1,187 @@
+.container{
+    border: 1px solid;
+    text-align: center;
+    width: 75% ;
+    margin: 0 auto;
+}
+.btn-danger {
+    background-color: red;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.btn-primary{
+    background-color: blue;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+#l{
+    border: 1px solid; 
+    
+}
+.mini-container{
+    border: 1px solid;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img {
+    width :150px;
+    height : 120px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+#b{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#m{
+    background-color: green;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.container-2, .container-4, .container-5{
+    border: 1px solid;
+    text-align: center;
+    width: 75% ;
+    margin: 0 auto;
+}
+#rock{
+    width:150; 
+    height:120px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    border-radius: 4px; 
+}
+#paper{
+    width: 150px;
+    height:120px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    border-radius: 4px; 
+}
+#scissors{
+    width: 150px;
+    height:120px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    border-radius: 4px; 
+}
+.container-3{
+    border: 1px solid;
+    text-align: center;
+    width: 75% ;
+    margin: 0 auto;
+}
+#rock:hover{
+    transform: translate3d(0,-5px,0);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+#paper:hover{
+    transform: translate3d(0,-5px,0);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+#scissors:hover{
+    transform: translate3d(0,-5px,0);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+.m-cont{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.btn-warning{
+    margin-left: 10px;
+}
+.btn-success{
+    margin-left: 20px;
+}
+#background{
+    width: 150px;
+    border-radius: 8px;
+    height: 38px;
+    padding-bottom: 6px;
+}
+.flex-box-row-3 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-box-row-1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.flex-box-row-1 div{
+    border: 1px solid;
+    height: 350px;
+    flex: 1;
+    
+}
+.flex-box-row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding : 10px
+}
+.flex-box-row-1{
+    background-image: url('https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg');
+    background-position: center;
+    color: white;
+    background-size: cover;
+}
+.flex-box-row-2{
+    background-image: url('https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+table, th, td{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.flex-box-row-3{
+    background: linear-gradient(-55deg, black, darkgreen);
+    padding: 10px;
+}
+.blackjack-h1, .blackjack-h3{
+    background-image: url('https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg');
+    background-position: center;
+    color: white;
+    background-size: cover;
+}

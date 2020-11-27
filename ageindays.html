@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Age in Days</h1>
+        <div class="mini-container">
+            <div >
+                <button class="btn btn-primary" onclick="ageInDays()">Start</button>
+            </div>
+            <div >
+                <button class="btn btn-danger" onclick="removedata()">Restart</button>
+            </div>
+        </div>
+        <div class="mini-container">
+            <div id="l">
+            
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-2">
+        <h1>cat generator</h1>
+        <button class="btn btn-success" onclick="gencat()">Cat Generator</button>
+        <div id="b">
+            
+        </div>
+    </div>
+    <hr>
+    <div class="container-3">
+        <h1>Rock, Paper,Scissors</h1>
+        <div class="m-cont" id="flex-box-rps-div">
+            <img id="rock" src="https://image.shutterstock.com/image-vector/family-gathering-cartoon-vector-rocks-260nw-173317940.jpg" alt="" width="150" height="150" onclick="rpsGame(this)">
+            <img id="paper" src="https://i.pinimg.com/originals/3e/3d/05/3e3d05446ea23c08b4b6ae4927fbd252.jpg" alt="" onclick="rpsGame(this)" >
+            <img id="scissors" src="https://w7.pngwing.com/pngs/892/208/png-transparent-cartoon-scissors-cartoon-scissors-cartoon-scissors-animation.png" alt="" onclick="rpsGame(this)" >
+        </div>
+    </div>
+    <hr>
+    <div class="container-4">
+        <h1>Change Button Color</h1>
+        <div>
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random!</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+             </form>
+                <button class="btn btn-primary">Wee!</button>
+                <button class="btn btn-danger">Yahoo</button>
+                <button class="btn btn-warning">Google</button>
+                <button class="btn btn-success">Facebook</button>
+        </div>
+
+    </div>
+    <hr>
+    <div class="container-5">
+        <h1 class="blackjack-h1">BlackJack!</h1>
+        <h3 class="blackjack-h3"><span id="blackjack-result">Lets Play!</span></h3>
+        <div class="flex-box-row-1">
+            <div class="your-box">
+                <h3>You: <span id="your-blackjack-result">0</span></h3>
+            </div>
+            <div class="dealer-box">
+                <h3>Dealer: <span id="deal-blackjack-result">0</span></h3>
+            </div>
+        </div>
+        <div class="flex-box-row-2">
+            <div>
+                <button class="btn btn-info mr-2" id="black-jack-hit-button">Hit</button>
+                <button class="btn btn-warning" id="black-jack-stand-button">Stand</button>
+                <button class="btn btn-success" id="black-jack-deal-button">Deal</button>
+            </div>
+        </div>
+        <div class="flex-box-row-3">
+            <table>
+                <tr>
+                    <th>Win</th>
+                    <th>Lose</th>
+                    <th>Draw</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
